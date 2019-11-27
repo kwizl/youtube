@@ -13,3 +13,19 @@ body {
     box-sizing: border-box;
 }
 
+/*Navbar CSS*/
+
+.navigation-bar {
+    position: relative;
+    height: 10vh;
+}
+
+.navigation-bar__logo-box {
+    position: absolute;
+    top: 0;
+    left: 6rem;
+}
+
+.logo {
+    height: 4rem;
+}
