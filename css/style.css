@@ -124,3 +124,27 @@ section.video__schedule {
     margin: 1rem;
 }
 
+.main__attributes {
+    position: fixed;
+    top: 32.5rem;
+    font-size: 1.1rem;
+    font-weight: 250;
+    color: rgb(71, 71, 71);
+    font-family: 'Times New Roman';
+}
+.main__attributes--container {
+    position: relative;
+}
+
+.main__attributes .main__attributes--container .i1 {
+    position: absolute;
+    left: 15rem;
+    font-size: .9rem;
+}
+
+.main__attributes .main__attributes--container .i2 {
+    position: absolute;
+    top: 0;
+    left: 23rem;
+    font-size: .9rem;
+}
