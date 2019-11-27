@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="icon" type="image/png" href="img/youtube-icon.png">
+    <link href="https://fonts.googleapis.com/css?family=Arimo&display=swap" rel="stylesheet"> 
     
     <title>Youtube</title>
 </head>
@@ -35,11 +36,16 @@
     </nav>
 
     <main class="video">
-        <section class="video__playing">
-            <iframe width="700" height="400" class="main-video" src="https://www.youtube.com/embed/N2qh5z7g3qk" 
-                frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-                allowfullscreen>
-            </iframe>
+        <section class="main-video__playing">
+            <div class="main-video__container">
+                <iframe width="700" height="400" class="main__video" src="https://www.youtube.com/embed/N2qh5z7g3qk" 
+                    frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+                </iframe>
+                <article class="main__video main__title">
+                    Impostor Syndrome in tech. ("Fake it till you make it")
+                </article>
+            </div>
         </section>
         <section class="video__schedule">
             <div class="schedule--video">

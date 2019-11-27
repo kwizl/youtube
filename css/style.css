@@ -90,13 +90,22 @@ body {
     position: relative;
 }
 
-section.video__playing {
+section.main-video__playing {
     width: 50rem;
 }
 
-.main-video {
+.main__video {
     margin: 1.8rem;
     margin-right: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.main__title {
+    position: fixed;
+    top: 29.8rem;
+    font-size: 1.4rem;
+    font-weight: 250;
+    font-family: 'Times New Roman';
 }
 
 section.video__schedule {
@@ -114,3 +123,4 @@ section.video__schedule {
 .schedule--video {
     margin: 1rem;
 }
+
