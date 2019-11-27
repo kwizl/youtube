@@ -125,8 +125,8 @@ section.video__schedule {
 }
 
 .main__attributes {
-    position: fixed;
-    top: 32.5rem;
+    position: absolute;
+    top: 28.7rem;
     font-size: 1.1rem;
     font-weight: 250;
     color: rgb(71, 71, 71);
@@ -145,6 +145,21 @@ section.video__schedule {
 .main__attributes .main__attributes--container .i2 {
     position: absolute;
     top: 0;
-    left: 23rem;
+    left: 21rem;
     font-size: .9rem;
+}
+
+.main__attributes .main__attributes--container button {
+    position: absolute;
+    top: 0;
+    left: 26.3rem;
+    font-size: .8rem;
+    height: 1.1rem;
+}
+
+.main__attributes .main__attributes--container .i3 {
+    position: absolute;
+    top: -.15rem;
+    left: -.2rem;
+    font-size: .8rem;
 }
