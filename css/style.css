@@ -1,0 +1,15 @@
+/*Normalize and reset the webpage*/
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body {
+    font-size: .8rem;
+    box-sizing: border-box;
+}
+
