@@ -101,8 +101,11 @@ section.main-video__playing {
 }
 
 .main__title {
-    position: fixed;
-    top: 29.8rem;
+    position: absolute;
+    top: 26.2rem;
+}
+
+.main__title--container p {
     font-size: 1.4rem;
     font-weight: 250;
     font-family: 'Times New Roman';
