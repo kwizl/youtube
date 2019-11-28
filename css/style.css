@@ -176,3 +176,15 @@ section.video__schedule {
     top: 6rem;
     left: 2rem;
 }
+
+.subscribe {
+    position: absolute;
+    top: 6rem;
+    left: 38rem;
+}
+
+.btn-subscribe {
+    background-color: red;
+    color: white;
+    padding: .5rem;
+}
