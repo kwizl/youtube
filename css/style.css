@@ -111,22 +111,6 @@ section.main-video__playing {
     font-family: 'Times New Roman';
 }
 
-section.video__schedule {
-    margin: .8rem;
-    position: absolute;
-    left: 45rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    position: absolute;
-    top: 0;
-    left: 46rem;
-}
-
-.schedule--video {
-    margin: 1rem;
-}
-
 .main__attributes {
     position: absolute;
     top: 28.7rem;
@@ -135,6 +119,7 @@ section.video__schedule {
     color: rgb(71, 71, 71);
     font-family: 'Times New Roman';
 }
+
 .main__attributes--container {
     position: relative;
 }
@@ -165,6 +150,33 @@ section.video__schedule {
     top: -.15rem;
     left: -.2rem;
     font-size: .8rem;
+}
+
+/*Recommended videos*/
+
+section.video__schedule {
+    margin: .8rem;
+    position: absolute;
+    top: 0;
+    left: 46rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.schedule--video {
+    margin: 1rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.schedule__details {
+    padding: 0 1rem;
+}
+
+.schedule__details--views {
+    margin-top: .7rem;
+    color: rgb(97, 97, 97);
 }
 
 .avatar__details {
