@@ -90,7 +90,7 @@ body {
     position: relative;
 }
 
-section.main-video__playing {
+.main-video__playing {
     width: 50rem;
 }
 
@@ -154,7 +154,7 @@ section.main-video__playing {
 
 /*Recommended videos*/
 
-section.video__schedule {
+.video__schedule {
     margin: .8rem;
     position: absolute;
     top: 0;
