@@ -1,9 +1,5 @@
-# youtube
-A clone of the youtube video channel. It contains a navigation bar( Contains: logo, searchbox, button and user icons), the main video(Contains: title, like and dislike, user avatar, views and subscribe button) and the recommended videos(Contains: video title andd views).
-
-# Microverse Project
-
-A clone of the youtube video channel. It contains a navigation bar( Contains: logo, searchbox, button and user icons), the main video(Contains: title, like and dislike, user avatar, views and subscribe button) and the recommended videos(Contains: video title andd views).
+# Youtube
+It is a clone of the youtube video channel. It contains a navigation bar( Contains: logo, search box, button, and user icons), video(Contains: title, like and dislike, user avatar, views and subscribe button) and, the recommended videos(Contains: video title and the number of views).
 
 ## Built With
 
@@ -25,9 +21,9 @@ https://kwizl.github.io/apple-clone/
 
 ## Contributing
 
-Contribution, issues and feature requests are welcome!
+Contribution, issues, and feature requests are welcome!
 
-## Suport
+## Support
 
 Give a star if you liked this project.
 
